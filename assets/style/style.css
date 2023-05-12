@@ -1,0 +1,27 @@
+/* BASIC STYLES HERE */
+.snack-card{
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 6px 9px 29px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 9px 29px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 9px 29px -10px rgba(0,0,0,0.75);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.snack-card .snack-image{
+    height: 7rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.snack-card .snack-image img{
+    width: 100%;
+}
+
+.snack-card .snack-info{
+    background-color: black;
+    color: white;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
